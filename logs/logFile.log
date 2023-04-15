@@ -1,0 +1,600 @@
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Unable to add user!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"User added successfully! 7"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"error","message":"Failed to create new patient: undefined"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient fetched successfuly!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Fetched all patients successfully!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Patient deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"Patient history updated successfully"}
+{"level":"info","message":"User updated successfully: [object Object]"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Diagnostic_report added successfully!: 2"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Diagnostic_report added successfully!: 3"}
+{"level":"info","message":"Find all diagnostic reports successful: [object Object],[object Object]"}
+{"level":"info","message":"Find patient by id successful: [object Object]"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Diagnostic report successfully deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Medication usage added successfully!"}
+{"level":"info","message":"Successfully fetched all medication usages!"}
+{"level":"info","message":"Successfully fetched medication usage"}
+{"level":"info","message":"Medication usage updated successfully!"}
+{"level":"info","message":"Medication usage deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Database Connected!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Successfully fetched encounter by id!"}
+{"level":"info","message":"Encounter successfully updated"}
+{"level":"info","message":"Encounter successfully updated"}
+{"level":"info","message":"Encounter deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"username must be unique"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"username must be unique"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all users!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all users!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all users!"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Successfully fetched all users!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"data and salt arguments required"}
+{"level":"error","message":"data and salt arguments required"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"data and salt arguments required"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Cannot set properties of undefined (setting 'passhash')"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"data and salt arguments required"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"data and salt arguments required"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all users!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"error","message":"Failed to delete user!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to delete user!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Unable to update user!"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"error","message":"Failed to create new patient: Patient.create is not a function"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Patient.find is not a function"}
+{"level":"error","message":"Failed to fetch all patients Patient.find is not a function"}
+{"level":"error","message":"Failed to create new patient: Patient.create is not a function"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to create new patient: Column 'patient_id' cannot be null"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to create new patient: Field 'patient_id' doesn't have a default value"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"User and patient linked successfully!"}
+{"level":"error","message":"Failed to fetch all patients Patient.find is not a function"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Patient.find is not a function"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Fetched all patients successfully!"}
+{"level":"info","message":"Patient fetched successfuly!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"error","message":"Unable to delete patient!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Patient deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Unable to delete patient!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to create new encounter!"}
+{"level":"error","message":"Failed to create new encounter!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to create new encounter!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all encounters Unknown column 'user_user_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all encounters Unknown column 'user_user_id' in 'field list'"}
+{"level":"error","message":"Failed to fetch all encounters Unknown column 'user_user_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"User and patient linked successfully!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"User and patient linked successfully!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"error","message":"Table 'ehr.user' doesn't exist"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"User and patient linked successfully!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User and patient linked successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Successfully fetched encounter by id!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"error","message":"Failed to create new encounter Cannot add or update a child row: a foreign key constraint fails (`ehr`.`encounter`, CONSTRAINT `encounter_ibfk_1` FOREIGN KEY (`patient_id`) REFERENCES `patient` (`id`))"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by user id!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched encounter by user id!"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch encounter by patient id"}
+{"level":"error","message":"Failed to fetch encounter by patient id"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by user id!"}
+{"level":"info","message":"Successfully fetched encounter by user id!"}
+{"level":"error","message":"Failed to updated encounter"}
+{"level":"error","message":"Failed to updated encounter"}
+{"level":"error","message":"Failed to updated encounter"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to updated encounter"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to updated encounter"}
+{"level":"info","message":"Encounter successfully updated"}
+{"level":"info","message":"Encounter deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to add medication usage"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to add medication usage"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to create patient history!"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Fetched patient history successfully!"}
+{"level":"info","message":"Fetched all patient histories successfully!"}
+{"level":"info","message":"Patient history updated successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"error","message":"Failed to add medication usage"}
+{"level":"error","message":"Failed to add medication usage"}
+{"level":"info","message":"Fetched all patient histories successfully!"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Fetched patient history successfully!"}
+{"level":"info","message":"Medication usage added successfully!"}
+{"level":"error","message":"Failed to fetch all medication usages"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all medication usages"}
+{"level":"error","message":"Failed to fetch medication usage by id"}
+{"level":"error","message":"Failed to fetch all medication usages"}
+{"level":"error","message":"Failed to fetch medication usage by id"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all medication usages"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all medication usages"}
+{"level":"info","message":"Medication usage added successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to add medication usage"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Medication usage added successfully!"}
+{"level":"info","message":"Successfully fetched all medication usages!"}
+{"level":"info","message":"Successfully fetched medication usage!"}
+{"level":"info","message":"Medication usage updated successfully!"}
+{"level":"info","message":"Medication usage deleted successfully!"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Diagnostic report added successfully!"}
+{"level":"info","message":"Found all diagnostic reports successfully!"}
+{"level":"info","message":"Fetched diagnostic report by id successful!"}
+{"level":"info","message":"Diagnostic successfully updated!"}
+{"level":"info","message":"Diagnostic report deleted successfully!"}
+{"level":"info","message":"User and patient linked successfully!"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'userpatient_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'patient_id' in 'field list'"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"error","message":"Failed to fetch all patients Unknown column 'patient_id' in 'field list'"}
+{"level":"error","message":"Table 'ehr.user' doesn't exist"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User added successfully!"}
+{"level":"error","message":"Unable to find user by id: Unknown column 'encounter_id' in 'field list'"}
+{"level":"info","message":"Server is listening on port 5000"}
+{"level":"info","message":"User fetched successfully!"}
+{"level":"info","message":"Successfully fetched all users!"}
+{"level":"info","message":"User updated successfully!"}
+{"level":"info","message":"User added successfully!"}
+{"level":"info","message":"Deleted user successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Fetched all patients successfully!"}
+{"level":"info","message":"Patient fetched successfuly!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Patient added successfully!"}
+{"level":"info","message":"Patient updated successfully!"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Successfully fetched all encounters"}
+{"level":"info","message":"Successfully fetched encounter by id!"}
+{"level":"info","message":"Encounter successfully updated"}
+{"level":"info","message":"Encounter added successfully!"}
+{"level":"info","message":"Encounter deleted successfully!"}
+{"level":"info","message":"Successfully fetched encounter by patient id"}
+{"level":"info","message":"Successfully fetched encounter by user id!"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Fetched all patient histories successfully!"}
+{"level":"info","message":"Fetched patient history successfully!"}
+{"level":"info","message":"Patient history updated successfully!"}
+{"level":"info","message":"Patient history created successfully!"}
+{"level":"info","message":"Patient history deleted successfully!"}
+{"level":"info","message":"Medication usage added successfully!"}
+{"level":"info","message":"Successfully fetched all medication usages!"}
+{"level":"info","message":"Successfully fetched medication usage!"}
+{"level":"info","message":"Medication usage updated successfully!"}
+{"level":"info","message":"Medication usage added successfully!"}
+{"level":"info","message":"Medication usage deleted successfully!"}
+{"level":"info","message":"Diagnostic report added successfully!"}
+{"level":"info","message":"Found all diagnostic reports successfully!"}
+{"level":"info","message":"Fetched diagnostic report by id successful!"}
+{"level":"info","message":"Diagnostic successfully updated!"}
+{"level":"info","message":"Diagnostic report added successfully!"}
+{"level":"info","message":"Diagnostic report deleted successfully!"}
