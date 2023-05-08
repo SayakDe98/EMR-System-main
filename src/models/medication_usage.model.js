@@ -10,12 +10,14 @@ module.exports = (sequelize, Sequelize) => {
             autoIncrement: true
         },
         medication_name: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
         medication_dose: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
-        medication__frequency: {
+        medication_frequency: {
             type: Sequelize.STRING
         },
         patient_history_id: {
@@ -23,7 +25,12 @@ module.exports = (sequelize, Sequelize) => {
             references: {
                 model: 'patient_history',
                 key: 'id'
-            }
+            },
+            allowNull: false
+        },
+        date: {
+            type: DataTypes.DATE,
+            allowNull: false
         }
     },
     {

@@ -41,42 +41,72 @@ if (config.use_env_variable) {
     
     db.sequelize = sequelize;
     db.Sequelize = Sequelize;
-    
-    db.User = require('./user.model')(sequelize, Sequelize);
-    db.Patient = require('./patient.model')(sequelize, Sequelize);
-    db.Encounter = require('./encounter.model')(sequelize, Sequelize);
-    db.PatientHistory = require('./patient_history.model')(sequelize, Sequelize);
-    db.MedicationUsage = require('./medication_usage.model')(sequelize, Sequelize);
-    db.DiagnosticReport = require('./diagnostic_report.model')(sequelize, Sequelize);
-// relationships for models
+    db.Encounter = require("./encounter.model")(sequelize, Sequelize);
 
-//= ==============================
-// Define all relationships here below
-//= =============================
-// db.Encounter.hasOne(db.User, {
-//   foreignKey: "encounter_id",
-//   as: "user",
-//   sourceKey: "id"
-// });
-// db.User.belongsTo(db.Encounter, { as: "encounter" });
+    db.MedicationUsage = require("./medication_usage.model")(
+      sequelize,
+      Sequelize
+    );
+    db.DiagnosticReport = require("./diagnostic_report.model")(
+      sequelize,
+      Sequelize
+    );
+    db.Appointment = require("./appointment.model")(sequelize, Sequelize);
+    db.PatientHistory = require("./patient_history.model")(
+      sequelize,
+      Sequelize
+    );
+    db.Doctor = require("./doctor.model")(sequelize, Sequelize);
+    db.Patient = require("./patient.model")(sequelize, Sequelize);
 
-// db.Encounter.hasOne(db.Patient, { as: 'patient'});
-// db.Patient.belongsTo(db.Encounter, {
-//   foreignKey: "patientId",
-//   as: "patient",
-//   sourceKey: "id"
-// });
+    db.User = require("./user.model")(sequelize, Sequelize);
 
-// db.PatientHistory.hasOne(db.User);
-// db.User.belongsTo(db.PatientHistory);
+    // relationships for models
 
-// db.PatientHistory.hasOne(db.Patient);
-// db.Patient.belongsTo(db.PatientHistory);
+    //= ==============================
+    // Define all relationships here below
+    //= =============================
 
-// db.PatientHistory.hasMany(db.MedicationUsage);
-// db.MedicationUsage.belongsTo(db.PatientHistory);
+    db.Patient.hasMany(db.PatientHistory, {
+      sourceKey: "id",
+      foreignKey: "patientId",
+    });
+    db.PatientHistory.belongsTo(db.Patient, { foreignKey: "patient_id" });
+    db.Patient.hasMany(db.Encounter, {
+      sourceKey: "id",
+      foreignKey: "patient_id",
+    });
+    db.Encounter.belongsTo(db.Patient, { foreignKey: "patient_id" });
 
-// db.Patient.hasMany(db.DiagnosticReport);
-// db.DiagnosticReport.belongsTo(db.Patient);
+    db.Doctor.hasMany(db.Appointment, {
+      sourceKey: "id",
+      foreignKey: "doctor_id",
+    });
+    db.Appointment.belongsTo(db.Doctor, { foreignKey: "doctor_id" });
+    db.Appointment.hasOne(db.Patient, {
+      sourceKey: "id",
+      foreignKey: "patient_id",
+    });
+    db.Patient.belongsTo(db.Appointment, { foreignKey: "patient_id" });
+
+    db.Doctor.hasMany(db.DiagnosticReport, {
+      sourceKey: "id",
+      foreignKey: "doctor_id",
+    });
+    db.DiagnosticReport.belongsTo(db.Doctor, { foreignKey: "doctor_id" });
+    db.DiagnosticReport.hasOne(db.Patient, {
+      sourceKey: "id",
+      foreignKey: "patient_id",
+    });
+    db.Patient.belongsTo(db.DiagnosticReport, { foreignKey: "patient_id" });
+
+    db.DiagnosticReport.hasOne(db.Appointment, {
+      sourceKey: "id",
+      foreignKey: "appointment_id",
+    });
+    db.Appointment.belongsTo(db.DiagnosticReport, {
+      foreignKey: "appointment_id",
+    });
+
 
 module.exports = db;

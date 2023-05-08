@@ -5,7 +5,14 @@ const { MedicationUsage } = require('../models');
 
 exports.findAll = async(req, res) => {
   try {
-    const getAllMedicationUsages = await MedicationUsage.findAll({});
+    let query = {};
+    if(req.query) {
+      query = req.query
+      if(req.query.date) {
+        query = { ...query, date: new Date(req.query.date) }
+      }
+    }
+    const getAllMedicationUsages = await MedicationUsage.findAll({ where: query });
     logger.info("Successfully fetched all medication usages!");
     res.send({
       message: "Successfully fetched all medication usages!",
@@ -13,7 +20,6 @@ exports.findAll = async(req, res) => {
       success: true
     })
   } catch (error) {
-    console.log(error.message)
     logger.error("Failed to fetch all medication usages");
     res.send({
       message: "Failed to fetch all medication usages",
@@ -37,7 +43,6 @@ exports.create = async(req, res) => {
           success: true
         })
       } catch (error) {
-        console.log(error.message)
         logger.error("Failed to add medication usage");
         res.send({
           message: "Failed to add medication usage",
@@ -64,25 +69,6 @@ exports.findById = async(req, res) => {
     })
   }
 };
-
-exports.findByHistoryId = async(req, res) => {
-  try {
-    const getMedicationUsagesByHistoryId = await MedicationUsage.findAll({ where: { history_id: req.params.id } });
-    logger.info(getMedicationUsagesByHistoryId.length > 1 ? "Successfully fetched medication usages!" : "Successfully fetched medication usage!");
-    res.send({
-      message: "Successfully fetched medication usage(s)!",
-      data: getMedicationUsagesByHistoryId,
-      success: true
-    })
-  } catch (error) {
-    logger.error("Failed to fetch medication usage by history id");
-    res.send({
-      message: "Failed to fetch medication usage by history id",
-      success: false
-    })
-  }
-};
-
 
 exports.update = async(req, res) => {
   if(req.body.constructor === Object && Object.keys(req.body).length === 0){

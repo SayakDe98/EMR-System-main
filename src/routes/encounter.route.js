@@ -5,14 +5,12 @@ const encounterController = require('../controllers/encounter.controller');
 router.get('/', encounterController.findAll);
 // Create a new encounter
 router.post('/', encounterController.create);
+//Retrieve latest encounter
+router.get("/latest", encounterController.findOne);
 // Retrieve a single encounter with id
 router.get('/:id', encounterController.findById);
 // Update a encounter with id
-router.put('/:id', encounterController.update);
+router.patch("/:id", encounterController.update);
 // Delete a encounter with id
-router.delete('/:id', encounterController.delete);
-// Retrieve all encounters by patient id
-router.get('/patient/:id', encounterController.findByPatientId);
-// Retrieve all encounters by user id
-router.get('/user/:id', encounterController.findByUserId);
+router.delete("/:id", encounterController.delete);
 module.exports = router

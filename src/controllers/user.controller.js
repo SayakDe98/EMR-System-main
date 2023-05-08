@@ -1,68 +1,145 @@
 'use strict';
 const requestBody = require('../../libs/constants/requestBody');
 const logger = require('../../libs/logger/logger');
-const { User } = require('../models')
-const bcrypt = require('bcrypt');
+const { User, Patient, Doctor } = require("../models");
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
-exports.findAll = async(req, res) => {
-    try {
-      const getAllUsers = await User.findAll({});
-      logger.info("Successfully fetched all users!");
-      res.send({
-        message: "Successfully fetched all users!",
-        data: getAllUsers,
-        success: true
-      })
-    } catch (error) {
-      res.send({
-        message: error.message,
-        success: false
-      })
+exports.findAll = async (req, res) => {
+  try {
+    let query = {};
+    if (req.query) {
+      query = req.query;
     }
+    const getAllUsers = await User.findAll({ where: query });
+    logger.info("Successfully fetched all users!");
+    res.send({
+      message: "Successfully fetched all users!",
+      data: getAllUsers,
+      success: true,
+    });
+  } catch (error) {
+    res.send({
+      message: error.message,
+      success: false,
+    });
+  }
 };
 
-exports.create = async function(req, res) {
-  if(req.body.constructor === Object && Object.keys(req.body).length === 0) {
-    res.status(400).send({ message: requestBody.invalidRequestBody, success: false });
+exports.create = async (req, res) => {
+  if (req.body.constructor === Object && Object.keys(req.body).length === 0) {
+    res
+      .status(400)
+      .send({ message: requestBody.invalidRequestBody, success: false });
     logger.error(`${requestBody.invalidRequestBody} for creating new user!`);
   } else {
     try {
       const salt = await bcrypt.genSalt(10);
-      req.body.password = await bcrypt.hash(req.body.password, salt)
-      const createUser = await User.create(req.body);
-      logger.info("User added successfully!")
+      req.body.password = await bcrypt.hash(req.body.password, salt);
+      let createUser = await User.create(req.body);
+      if (createUser.permissions === "PATIENT") {
+        const payload = { ...req.body, user_id: createUser.id };
+        createUser = await Patient.create(payload);
+      }
+      if (createUser.permissions === "DOCTOR") {
+        const payload = { ...req.body, user_id: createUser.id };
+        createUser = await Doctor.create(payload);
+      }
+      logger.info("User added successfully!");
+      console.log("create user", createUser);
       res.send({
         message: "User added successfully!",
         data: createUser,
-        success: true
-      })
-
+        success: true,
+      });
     } catch (error) {
-      logger.error(error.message)
+      logger.error(error.message);
       res.send({
         message: error.message,
-        success: false
-      })
+        success: false,
+      });
     }
+  }
+};
 
+exports.login = async (req, res) => {
+  try {
+    if (!req.body) {
+      throw new Error("Please provide username and password!");
+    } else if (!req.body.username) {
+      throw new Error("Please provide username!");
+    } else if (!req.body.password) {
+      throw new Error("Please provide password!");
+    }
+    const getUserByUsername = await User.findOne({
+      where: {
+        username: req.body.username,
+      },
+    });
+    if (!getUserByUsername) {
+      throw new Error("User not found!");
+    }
+    const validPassword = await bcrypt.compare(
+      req.body.password,
+      getUserByUsername.password
+    );
+
+    if (!validPassword) {
+      return res.send({
+        message: "Invalid password.",
+        success: false,
+      });
+    }
+    const token = jwt.sign(
+      {
+        id: getUserByUsername.dataValues.id,
+        username: getUserByUsername.dataValues.username,
+        permissions: getUserByUsername.dataValues.permissions,
+      },
+      process.env.jwtSecret,
+      { expiresIn: process.env.jwtExpirationTime }
+    );
+    const refreshToken = jwt.sign(
+      {
+        id: getUserByUsername.dataValues.id,
+        permissions: getUserByUsername.dataValues.permissions,
+      },
+      process.env.jwtRefreshSecret,
+      { expiresIn: process.env.jwtRefreshExpirationTime }
+    );
+    res.send({
+      message: "User logged in successfully!",
+      data: {
+        token,
+        refreshToken,
+        id: getUserByUsername.dataValues.id,
+      },
+      success: true,
+    });
+  } catch (error) {
+    logger.error(error.message);
+    res.status(400).send({
+      message: error.message,
+      success: false,
+    });
   }
 };
 
 exports.findById = async (req, res) => {
   try {
-    const getUserById = await User.findOne({ id: req.params.id });
+    const getUserById = await User.findOne({ where: { id: req.params.id } });
     logger.info("User fetched successfully!");
     res.send({
       message: "User fetched successfully!",
       data: getUserById,
-      success: true
-    })
+      success: true,
+    });
   } catch (error) {
     logger.error(`Unable to find user by id: ${error.message}`);
     res.send({
       message: error.message,
-      success: false
-    })
+      success: false,
+    });
   }
 };
 

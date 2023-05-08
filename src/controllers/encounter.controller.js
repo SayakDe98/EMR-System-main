@@ -3,29 +3,68 @@ const { invalidRequestBody } = require('../../libs/constants/requestBody');
 const logger = require('../../libs/logger/logger');
 const { Encounter } = require('../models');
 
-exports.findAll = async(req, res) => {
-    try {
-      const getAllEncounters = await Encounter.findAll({});
-      logger.info("Successfully fetched all encounters");
-      res.send({
-        message: "Successfully fetched all encounters",
-        data: getAllEncounters,
-        success: true
-      })
-    } catch (error) {
-      logger.error(`Failed to fetch all encounters ${error.message}`);
-      res.send({
-        message: "Failed to fetch all encounters",
-        success: false
-      })
+exports.findAll = async (req, res) => {
+  try {
+    let query = {};
+    if (req.query) {
+      query = req.query;
+      if (req.query.date) {
+        query = { ...query, date: new Date(req.query.date) };
+      }
     }
+    const getAllEncounters = await Encounter.findAll({ where: query });
+    logger.info("Successfully fetched all encounters");
+    res.send({
+      message: "Successfully fetched all encounters",
+      data: getAllEncounters,
+      success: true,
+    });
+  } catch (error) {
+    logger.error(`Failed to fetch all encounters ${error.message}`);
+    res.send({
+      message: "Failed to fetch all encounters",
+      success: false,
+    });
+  }
 };
 
-exports.create = async(req, res) => {
-//handles null error
-  if(req.body.constructor === Object && Object.keys(req.body).length === 0){
-      res.status(400).send({ message: invalidRequestBody, success: false });
-      logger.error(`${invalidRequestBody} for creating encounter`);
+exports.findOne = async (req, res) => {
+  try {
+    let query = {};
+    if (req.query) {
+      query = req.query;
+      if (req.query.date) {
+        query = { ...query, date: new Date(req.query.date) };
+      }
+    }
+    console.log(req.query, query);
+    const getLatestEncounter = await Encounter.findOne({
+      where: query,
+      order: [["createdAt", "DESC"]],
+    });
+    if (!getLatestEncounter.dataValues) {
+      throw new Error("No records found!");
+    }
+    logger.info("Found latest encounter successfully!");
+    res.send({
+      message: "Found latest encounter successfully!",
+      data: getLatestEncounter,
+      success: true,
+    });
+  } catch (error) {
+    logger.error("Unable to find latest encounter!");
+    res.send({
+      message: "Unable to find latest encounter!",
+      success: false,
+    });
+  }
+};
+
+exports.create = async (req, res) => {
+  //handles null error
+  if (req.body.constructor === Object && Object.keys(req.body).length === 0) {
+    res.status(400).send({ message: invalidRequestBody, success: false });
+    logger.error(`${invalidRequestBody} for creating encounter`);
   } else {
     try {
       const createEncounter = await Encounter.create(req.body);
@@ -33,72 +72,35 @@ exports.create = async(req, res) => {
       res.send({
         message: "Encounter added successfully!",
         data: createEncounter,
-        success: true
-      })
+        success: true,
+      });
     } catch (error) {
       logger.error(`Failed to create new encounter ${error.message}`);
       res.send({
         message: "Failed to create new encounter!",
-        success: false
-      })
+        success: false,
+      });
     }
   }
 };
 
-exports.findById = async(req, res) => {
+exports.findById = async (req, res) => {
   try {
     const getEncounterById = await Encounter.findOne({ id: req.params.id });
     logger.info("Successfully fetched encounter by id!");
     res.send({
       message: "Successfully fetched encounter by id!",
       data: getEncounterById,
-      success: true
-    })
+      success: true,
+    });
   } catch (error) {
-      logger.error("Failed to fetch encounter by id");
-      res.send({
-        message: "Failed to fetch encounter by id",
-        success: false
-      })  
+    logger.error("Failed to fetch encounter by id");
+    res.send({
+      message: "Failed to fetch encounter by id",
+      success: false,
+    });
   }
 };
-
-exports.findByPatientId = async(req, res) =>  {
-  try {
-    const getEncounterByPatientId = await Encounter.findAll({ where: { patient_id: req.params.id } });
-    logger.info("Successfully fetched encounter by patient id");
-    res.send({
-      message: "Successfully fetched encounter by patient id",
-      data: getEncounterByPatientId,
-      success: true
-    })
-  } catch (error) {
-    logger.error("Failed to fetch encounter by patient id");
-    res.send({
-      message: "Failed to fetch encounter by patient id",
-      success: false
-    })
-  }
-};
-
-exports.findByUserId = async(req, res) => {
-  try {
-    const getEncounterByUserId = await Encounter.findAll({ where: { user_id: req.params.id } });
-    logger.info("Successfully fetched encounter by user id!");
-    res.send({
-      message: "Successfully fetched encounter by user id!",
-      data: getEncounterByUserId,
-      success: true
-    })
-  } catch (error) {
-    logger.error("Failed to fetched encounter by user id");
-    res.send({
-      message: "Failed to fetched encounter by user id",
-      success: false
-    })
-  }
-};
-  
 
 exports.update = async(req, res) => {
   if(req.body.constructor === Object && Object.keys(req.body).length === 0){

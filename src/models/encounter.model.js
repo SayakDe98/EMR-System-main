@@ -10,10 +10,12 @@ module.exports = (sequelize, Sequelize) => {
             autoIncrement: true
         },
         reason: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
         status: {
-            type: Sequelize.STRING
+            type: Sequelize.STRING,
+            allowNull: false
         },
         note: {
             type: Sequelize.STRING
@@ -23,14 +25,12 @@ module.exports = (sequelize, Sequelize) => {
             references: {
                 model: 'patient',
                 key: 'id'
-            }
+            },
+            allowNull: false
         },
-        user_id: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'user',
-                key: 'id'
-            }
+        date: {
+            type: DataTypes.DATE,
+            allowNull: false
         }
     },
     {
